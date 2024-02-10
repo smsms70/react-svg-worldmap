@@ -167,7 +167,6 @@ export default function WorldMap<T extends number | string>(
       )}
       <svg
         ref={containerRef}
-        id="mySvg"
         height={`${height}px`}
         width={`${width}px`}
         {...(richInteraction ? eventHandlers : undefined)}>
